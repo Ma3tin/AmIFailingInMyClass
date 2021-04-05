@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Am I failing in my class</title>
+    <script src="Js.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Am I failing in my class?</h1>
+<div class="allOfIt">
+    <div class="all">
+        <div id="grades" class="grades">
+            <div id="div1">
+                <label id="name">Grade #1</label>
+                <div class="divGrade">
+                    <label class="input" for="grade1">Grade:</label><input type="text" id="grade1"><label class="yourWeight" for="weight1">Weight:</label><input
+                        type="text" id="weight1">
+                </div>
+            </div>
+        </div>
+        <input type="button" class="add" id="add" value="Add grade" />
+        <input type="button" class="average" id="average1" value="Count average"/>
+        <input type="button" class="remove" id="remove" value="Remove grade"/>
+        <div class="answers">
+            <div class="average1"><p class="yourAverage">Average: </p><p id="average"></p></div>
+            <div class="failing"><p>Are you failing?</p><p id="amIFailing"></p></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let count = 1;
+</script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+.all {
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    background-color: #8EE4AF;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 150%;
+}
+
+.allOfIt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#name {
+    width: 150px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    border: 0;
+    background-color: #0C0032;
+    color: #c5c5c5;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 80%;
+    outline: none;
+}
+
+.add:hover {
+    background-color: #0C0050;
+}
+
+
+.average {
+    border: 0;
+    background-color: #0C0032;
+    color: #c5c5c5;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 80%;
+    outline: none;
+
+}
+
+.average:hover {
+    background-color: #0C0050;
+
+}
+
+.remove {
+    border: 0;
+    background-color: #0C0032;
+    color: #c5c5c5;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 80%;
+    outline: none;
+
+}
+
+.remove:hover {
+    background-color: #0C0050;
+
+}
+
+.answers {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.average1 {
+    display: flex;
+}
+
+.yourAverage {
+    margin-right: 10px;
+}
+
+#div1 {
+    display: flex;
+}
+
+.yes {
+    color: darkgreen;
+}
+
+.no {
+    color: darkred;
+}
+
+body {
+    background-color: #5CDB95;
+    font-family: Carlito, serif;
+
+}
+
+@media screen and (max-width: 600px) {
+    .divCount {
+        flex-direction: row;
+    }
+}
+
+.divCount {
+    display: flex;
+}
+
+.divGrade {
+    width: 600px;
+}
+
+.input {
+    display: inline-block;
+}
+
+.yourWeight {
+    margin-left: 10px;
+}
+
+#inside {
+    width: 600px;
+}
+
+#grade1 {
+    padding: 3px 1px;
+    outline: none;
+
+}
+
+#weight1 {
+    padding: 3px 1px;
+    outline: none;
+
+}
+
+.newGrade {
+    padding: 3px 1px;
+    outline: none;
+
+}
+
+.newWeight {
+    padding: 3px 1px;
+    outline: none;
+}
